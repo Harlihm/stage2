@@ -1,0 +1,61 @@
+.banner {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-image: url(../../Images/Poster.png);
+    background-size: cover;
+    background-position: center;
+   
+}
+.hide{
+    display: none;
+}
+.banner__content {
+    position: absolute;
+    width: 404px;
+    height: 285px;
+    top: 158px;
+    left: 98px;
+    gap: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+
+
+}
+
+.banner__title {
+    width: 404px;
+    height: 112px;
+    color: white;
+    font-size: 48px;
+
+}
+
+.movie__overview {
+    width: 302px;
+    height: 72px;
+    color: white;
+    font-size: 14px;
+
+}
+
+.banner__buttons button {
+    margin-top: 2.5rem;
+    color: white;
+    width: 169px;
+    height: 36px;
+    padding: 6px 16px 6px 16px;
+    border-radius: 6px;
+    gap: 8px;
+    border: #BE123C;
+    background-color: #BE123C;
+}
+.banner__rating{
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 20rem;
+}

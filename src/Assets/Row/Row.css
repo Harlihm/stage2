@@ -1,0 +1,55 @@
+.item{
+    margin: 3rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.row__posters{
+    margin: 3rem 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7rem;
+
+}
+.row__poster .poster{
+width:250px;
+height:490px;
+border-radius: 6px;
+gap: 12px;
+
+}
+
+.Featured h2{
+    height: 47px;
+    font-size: 36px;
+}
+
+.row__rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    /* line-height: 23px; */
+/*  */
+}
+.imdb-R ,.rotenTomato{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.row__title{
+    margin-top: 2rem;
+    width: 250px;
+    /* height: 23px; */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.item p{
+    color:#BE123C ;
+}
