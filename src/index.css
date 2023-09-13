@@ -75,6 +75,8 @@ display: none;
 
   html{
     width: 504px;
+    margin: 0;
+    padding: 0;
   }
   /* .nav {
     margin: 3rem 1rem;
@@ -88,5 +90,24 @@ display: none;
  .search svg{
   right: 2rem;
  }
+
+ .Featured h2 {
+  width: 100vw;
+  height: 50px;
+  font-size: 35px;
+}
+.item {
+  margin: 3rem 1rem;
+}
+.item p {
+  width: 99px;
+  color: #BE123C;
+}
+.row__poster .poster {
+  width: 363px;
+  height: 490px;
+  border-radius: 6px;
+  gap: 12px;
+}
 
 }
