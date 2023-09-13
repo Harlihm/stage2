@@ -27,4 +27,3 @@ const Movie = ({ title, poster_path, vote_average,id, release_date }) => {
 }
 
 export default Movie
-

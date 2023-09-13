@@ -3,6 +3,7 @@ import Row from '../../Assets/Row/Row';
 import Banner from '../../Assets/Banner/Banner';
 import Nav from '../../Assets/Nav/Nav';
 import { useEffect, useState } from 'react';
+import Footer from '../Footer/Footer';
 const API_URL =
   "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=a791ad0f144ddfcc6ebe3aa512ef4f43&page=1";
 
@@ -35,6 +36,7 @@ function Home() {
       <Nav movies={movies} setMovies={setMovies} title={title} setTitle={setTitle} />
       <Banner fetchUrl={requests.fetchTrending} />
       <Row movies={movies} setMovies={setMovies} title={title} setTitle={setTitle} fetchUrl={requests.fetchNetflixOriginals} />
+      <Footer/>
     </div>
   );
 }
