@@ -16,3 +16,55 @@ a{
   text-decoration: none;
   color: black;
 }
+
+
+
+
+
+@media screen and  (max-width:1450px) {
+   
+    
+
+}
+@media screen and  (max-width:1199px) {
+
+
+}
+  
+  @media screen and  (max-width:991px) {
+   
+  }
+  
+  @media screen and  (max-width:767px) {
+   
+  }
+  
+  
+  
+  
+  @media screen and (max-width:530px) {
+    .nav {
+      margin: 3rem 2rem;
+    }
+   .nav_title h2{
+    display: none;
+   }
+
+   .nav_menu button{
+display: none;
+   }
+   .search input {
+      width: 314px;
+   }
+   .banner__title{
+    font-size: 38px;
+   }
+   .banner__rating ,.movie__overview{
+    /* width: 15rem; */
+   }
+}
+
+  @media screen and (max-width:420px) {
+  
+
+}
