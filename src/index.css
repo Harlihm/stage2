@@ -62,13 +62,48 @@ display: none;
    .banner__title{
     font-size: 38px;
    }
-   .banner__rating ,.movie__overview{
-    /* width: 15rem; */
-   }
-
+  
    .search svg{
     right: 2rem;
    }
+
+    .left_side{
+      display: none;
+    }
+    .bottom_side{
+      flex-direction: column;
+    }
+    .playnow{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    }
+    .playnow img {
+      width: 720px;
+      height: 446px;
+      top: 38px;
+      left: 263px;
+      border-radius: 20px;
+  }
+.bottom_left img{
+  width: 43rem;
+}
+  .movie__details {
+    display: flex;
+    margin: 0 2rem;
+}
+.movieD-title{
+  margin-top: 2rem;
+}
+.movieD-title h3{
+
+  font-size: 34px;
+}
+
+.movieD-title-Wrapper p{
+  font-size: 38px;
+}
 }
 
   @media (max-width:828px) and (min-width:414px) {
