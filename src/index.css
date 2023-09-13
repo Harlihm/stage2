@@ -72,9 +72,9 @@ display: none;
 
   @media screen and (max-width:420px) {
 
-  /* html{
-    width: max-content;
-  } */
+  html{
+    width: 504px;
+  }
   /* .nav {
     margin: 3rem 1rem;
     
