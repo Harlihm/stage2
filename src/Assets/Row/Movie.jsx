@@ -8,14 +8,14 @@ import tomat from '../../Images/tomat.png';
 const Movie = ({ title, poster_path, vote_average,id, release_date }) => {
   let vote = vote_average / 10 * 100;
   let roundedVote = parseFloat(vote.toFixed(1));
-
-
+ let utcDate = new Date(release_date);
+    //  console.log(utcDate.toLocaleDateString());
 
   return (
     <div className="row__poster">
       <Link to={`/movieDetails/${id}`}>
       <img data-testid="movie-poster" className='poster' src={IMAGE_PATH + poster_path} alt={title} />
-      <p data-testid="movie-release-date">{release_date}</p>
+      <p data-testid="movie-release-date">{utcDate.toDateString()}</p>
       
         <p data-testid="movie-title" className='row__title'>{title}</p>
         <div className="row__rating">
